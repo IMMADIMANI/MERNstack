@@ -1,65 +1,27 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TASK2.css">
+    <title>Navigation Bar</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="nav-item1">Home</a><br>
+        <a href="#" class="nav-item">Java</a><br>
+        <a href="#" class="nav-item">CSS</a><br>
+        <a href="#" class="nav-item">HTML</a><br>
+        <a href="#" class="nav-item">Bootstrap</a>
+        
+    </nav>
 
-.navbar {
-    background-color: skyblue;
-    width: 200px;
-    padding: 20px 0;
-    position: fixed;
-    height: fit-content;
-    text-align: center;
-}
-
-.nav-item {
-    display: block;
-    padding: 10px 0;
-    color: blue;
-    text-decoration: none;
-    transition: background-color 0.3s;
-}
-
-.nav-item1 {
-    display: block;
-    padding: 10px 0;
-    color: white;
-    text-decoration: none;
-    transition: background-color 0.3s;
-    background-color: darkorange;
-}
-
-.nav-item:hover {
-    background-color: orange;
-    color: white;
-}
-
-.horizontal-navbar {
-    background-color: lightgray;
-    display: flex;
-    justify-content: flex-end; 
-    align-items: center;
-    height: 40px;
-    width: fit-content;
-    position: fixed; 
-    top: 0;
-    right: 0; 
-}
-
-.horizontal-nav-item {
-    padding: 10px 20px;
-    color: blue;
-    text-decoration: none;
-    transition: background-color 0.3s;
-}
-.horizontal-nav-item1{
-    padding: 10px 20px;
-    color: white;
-    background-color: gray;
-    text-decoration: none;
-}
-.horizontal-nav-item:hover {
-    background-color: gray;
-    color: white;
-}
+    <nav class="horizontal-navbar">
+        <a href="#" class="horizontal-nav-item1">Home</a>
+        <a href="#" class="horizontal-nav-item">Java</a>
+        <a href="#" class="horizontal-nav-item">HTML</a>
+        <a href="#" class="horizontal-nav-item">CSS</a>
+        <a href="#" class="horizontal-nav-item">   </a>
+    </nav>
+</body>
+</html>
